@@ -1,2 +1,2 @@
 # opendungeon
-Public Repository for Easily Deployable OpenVPN Access Server
+Public Repository for Easily Deployable OpenVPN Server
