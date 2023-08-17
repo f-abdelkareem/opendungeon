@@ -1,0 +1,12 @@
+---
+- name: Update and upgrade apt packages
+  apt:
+    update_cache: yes
+    upgrade: safe
+
+- name: Install OpenVPN and other required packages
+  apt:
+    name:
+      - openvpn
+      - other_required_packages
+    state: present
